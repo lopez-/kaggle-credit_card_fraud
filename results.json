@@ -1,0 +1,242 @@
+[
+ {
+  "eval_metrics": {
+   "accuracy": 0.9845243513882567,
+   "recall": 0.8375634517766497,
+   "precision": 0.9880239520958084,
+   "lift": 11.018723973373051,
+   "f1": 0.9065934065934065,
+   "roc_auc": 0.9182817258883248
+  },
+  "details": {
+   "resampling_strategy": "none",
+   "algorithm": "random_forest"
+  },
+  "params": {
+   "ml__bootstrap": true,
+   "ml__max_depth": 4,
+   "ml__max_features": "auto",
+   "ml__min_samples_leaf": 4,
+   "ml__min_samples_split": 2,
+   "ml__n_estimators": 15
+  }
+ },
+ {
+  "eval_metrics": {
+   "accuracy": 0.9849795175238962,
+   "recall": 0.8527918781725888,
+   "precision": 0.9767441860465116,
+   "lift": 10.892928815960333,
+   "f1": 0.910569105691057,
+   "roc_auc": 0.9253959390862944
+  },
+  "details": {
+   "resampling_strategy": "underssampling",
+   "algorithm": "logistic_regression"
+  },
+  "params": {
+   "ml__C": 0.3,
+   "ml__fit_intercept": true,
+   "ml__penalty": "l1"
+  }
+ },
+ {
+  "eval_metrics": {
+   "accuracy": 0.9863450159308147,
+   "recall": 0.8629441624365483,
+   "precision": 0.9826589595375722,
+   "lift": 10.958892051289574,
+   "f1": 0.9189189189189189,
+   "roc_auc": 0.9307220812182743
+  },
+  "details": {
+   "resampling_strategy": "smote",
+   "algorithm": "xgboost"
+  },
+  "params": {
+   "ml__booster": "gbtree",
+   "ml__learning_rate": 0.3,
+   "ml__max_depth": 9
+  }
+ },
+ {
+  "eval_metrics": {
+   "accuracy": 0.9827036868456986,
+   "recall": 0.8730964467005076,
+   "precision": 0.9297297297297298,
+   "lift": 10.368610234600082,
+   "f1": 0.9005235602094241,
+   "roc_auc": 0.9332982233502538
+  },
+  "details": {
+   "resampling_strategy": "none",
+   "algorithm": "random_forest"
+  },
+  "params": {
+   "ml__bootstrap": true,
+   "ml__max_depth": 2,
+   "ml__max_features": "auto",
+   "ml__min_samples_leaf": 4,
+   "ml__min_samples_split": 2,
+   "ml__n_estimators": 15
+  }
+ },
+ {
+  "eval_metrics": {
+   "accuracy": 0.9558488848429677,
+   "recall": 0.9035532994923858,
+   "precision": 0.6953125,
+   "lift": 7.754322652284263,
+   "f1": 0.7858719646799117,
+   "roc_auc": 0.9322766497461928
+  },
+  "details": {
+   "resampling_strategy": "underssampling",
+   "algorithm": "logistic_regression"
+  },
+  "params": {
+   "ml__C": 0.2,
+   "ml__fit_intercept": true,
+   "ml__penalty": "l1"
+  }
+ },
+ {
+  "eval_metrics": {
+   "accuracy": 0.9758761948111061,
+   "recall": 0.8781725888324873,
+   "precision": 0.8564356435643564,
+   "lift": 9.551213750816705,
+   "f1": 0.8671679197994987,
+   "roc_auc": 0.9318362944162437
+  },
+  "details": {
+   "resampling_strategy": "smote",
+   "algorithm": "xgboost"
+  },
+  "params": {
+   "ml__booster": "gblinear",
+   "ml__learning_rate": 0.01,
+   "ml__max_depth": 3
+  }
+ },
+ {
+  "eval_metrics": {
+   "accuracy": 0.9808830223031406,
+   "recall": 0.8477157360406091,
+   "precision": 0.9329608938547486,
+   "lift": 10.4046450954258,
+   "f1": 0.8882978723404255,
+   "roc_auc": 0.9208578680203046
+  },
+  "details": {
+   "resampling_strategy": "none",
+   "algorithm": "random_forest"
+  },
+  "params": {
+   "ml__bootstrap": true,
+   "ml__max_depth": 3,
+   "ml__max_features": "auto",
+   "ml__min_samples_leaf": 1,
+   "ml__min_samples_split": 2,
+   "ml__n_estimators": 15
+  }
+ },
+ {
+  "eval_metrics": {
+   "accuracy": 0.9827036868456986,
+   "recall": 0.883248730964467,
+   "precision": 0.9206349206349206,
+   "lift": 10.267182338248327,
+   "f1": 0.9015544041450776,
+   "roc_auc": 0.9378743654822336
+  },
+  "details": {
+   "resampling_strategy": "underssampling",
+   "algorithm": "logistic_regression"
+  },
+  "params": {
+   "ml__C": 0.1,
+   "ml__fit_intercept": true,
+   "ml__penalty": "l1"
+  }
+ },
+ {
+  "eval_metrics": {
+   "accuracy": 0.9817933545744196,
+   "recall": 0.883248730964467,
+   "precision": 0.9109947643979057,
+   "lift": 10.159672575544157,
+   "f1": 0.8969072164948453,
+   "roc_auc": 0.9373743654822335
+  },
+  "details": {
+   "resampling_strategy": "smote",
+   "algorithm": "xgboost"
+  },
+  "params": {
+   "ml__booster": "gbtree",
+   "ml__learning_rate": 0.5,
+   "ml__max_depth": 6
+  }
+ },
+ {
+  "eval_metrics": {
+   "accuracy": 0.9817933545744196,
+   "recall": 0.868020304568528,
+   "precision": 0.9243243243243243,
+   "lift": 10.308327616957058,
+   "f1": 0.8952879581151832,
+   "roc_auc": 0.930510152284264
+  },
+  "details": {
+   "resampling_strategy": "none",
+   "algorithm": "random_forest"
+  },
+  "params": {
+   "ml__bootstrap": true,
+   "ml__max_depth": 4,
+   "ml__max_features": "auto",
+   "ml__min_samples_leaf": 2,
+   "ml__min_samples_split": 2,
+   "ml__n_estimators": 15
+  }
+ },
+ {
+  "eval_metrics": {
+   "accuracy": 0.9740555302685481,
+   "recall": 0.8934010152284264,
+   "precision": 0.8301886792452831,
+   "lift": 9.2585001436644,
+   "f1": 0.8606356968215159,
+   "roc_auc": 0.9377005076142132
+  },
+  "details": {
+   "resampling_strategy": "underssampling",
+   "algorithm": "logistic_regression"
+  },
+  "params": {
+   "ml__C": 0.1,
+   "ml__fit_intercept": true,
+   "ml__penalty": "l1"
+  }
+ },
+ {
+  "eval_metrics": {
+   "accuracy": 0.9790623577605826,
+   "recall": 0.8883248730964467,
+   "precision": 0.8793969849246231,
+   "lift": 9.807285156748208,
+   "f1": 0.8838383838383839,
+   "roc_auc": 0.9381624365482233
+  },
+  "details": {
+   "resampling_strategy": "smote",
+   "algorithm": "xgboost"
+  },
+  "params": {
+   "ml__booster": "gbtree",
+   "ml__learning_rate": 0.3,
+   "ml__max_depth": 9
+  }
+ }
+]
