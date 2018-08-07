@@ -1,3 +1,5 @@
+import pandas as pd
+
 # MLModelManager class definition
 class MLModelManager(object):
 
@@ -20,4 +22,17 @@ class MLModelManager(object):
                     max_kpi_value = kpi_value
                     setup_to_return = setup
 
-            return setup_to_return
+        return setup_to_return
+
+    def summarize_by_kpi(self,kpi,metrics_node,name_field):
+
+        algo = []
+        kpis = []
+
+        for setup in self.setups:
+            algo.append(setup['details'][name_field])
+            kpis.append(setup[metrics_node][kpi])
+
+        df = pd.DataFrame({'algorithm' : algo, kpi : kpis})
+
+        return(df)
